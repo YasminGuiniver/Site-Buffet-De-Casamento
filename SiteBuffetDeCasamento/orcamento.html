@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style4.css">
+
+    <title>Buffet de Casamento</title>
+  </head>
+  <body>
+      
+      <h1><img src="images/logo-buffet.jpg"></h1>
+
+      <nav>
+        <ul id="menu">
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="orcamento.html">Orçamento</a></li>
+        </ul>
+      </nav>
+
+      <h2>Orçamento</h2>
+
+      <form id="formCadastro">
+
+      Nome:
+			<input type="text" name="nome" id="nome" size="60"/>
+			
+			
+			E-mail:
+			<input type="email" name="email" id="email" size="50"/>
+			
+      Sexo:
+			<input type="radio" name="sexo" id="sexo" value="M"> Masc
+			<input type="radio" name="sexo" id="sexo" value="F"> Fem
+			<br>
+
+      Telefone:
+      <input type="tel" name="telefone" id="telefone" placeholder="(xx) xxxxx-xxxxx" name="fone" size="30"/>
+      
+
+      Endereço:
+			<input type="text" name="endereco" id="endereco" size="80"/>
+			<br>
+
+      Cidade:
+			<input type="text" name="cidade" id="cidade" size="70"/>
+
+      CEP:
+      <input type="text" name="cep" id="cep" size="40"/>
+      <br>
+
+			Tipo de Evento:
+			<select name="evento" id="evento">
+        <option selected>Selecionar...</option>
+				<option value="1">Cerimônia</option>
+				<option value="2">Festa</option>
+				<option value="4">Cerimônia + Festa</option>
+			</select>
+
+      Tipo do Cardápio:
+			<select name="cardapio" id="cardapio">
+        <option selected>Selecionar...</option>
+				<option value="1">Churrasco</option>
+				<option value="2">Coquetel</option>
+				<option value="4">Coquetel Premium</option>
+			</select>
+			<br>
+
+			<input type="checkbox" name="termos" id="termos" value="true"/> 
+			Eu li e aceito os termos de uso neste site.
+			<br>
+
+      <input type="button" value="Cadastrar" onclick="verificar()">
+      </form>
+
+      <!--
+        Telefone:
+      <select name="telenone" id="telefone"></select>
+      <input type="tel" id="foneid" placeholder="(xx) xxxxx-xxxxx" name="fone" size="40"/>
+        <div class="tefelone">
+          <label> Telefone </label>
+          <input type="text" name="telefone" class="telefone" 
+          function mascaraDeTelefone(telefone){
+            const textoAtual = telefone.value;
+            const isCelular = textoAtual.length 9;
+            let textoAjustado;
+                if(isCelular =11) {
+                  Celular
+                } else {
+                  Tefefone fixo
+                }
+            telefone.value = textoAjustado;
+        }
+          let textoAjustado;
+              if(isCelular) {
+                  const parte1 = textoAtual.slice(0,5);
+                  const parte2 = textoAtual.slice(5,9);
+                  textoAjustado = `${parte1}-${parte2}`        
+              } else {
+                  const parte1 = textoAtual.slice(0,4);
+                  const parte2 = textoAtual.slice(4,8);
+                  textoAjustado = `${parte1}-${parte2}`
+              }
+          
+              telefone.value = textoAjustado;
+          }> -->
+
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

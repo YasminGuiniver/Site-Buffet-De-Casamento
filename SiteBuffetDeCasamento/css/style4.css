@@ -1,0 +1,74 @@
+body{
+    background: #726750;
+    font-family: Century Gothic;
+    text-align: center;
+    line-height: 180%;
+}
+h1{
+    background-color: #FFFAE0;
+    line-height: 200%;
+}
+img{
+    height: 100px;
+}
+nav{
+    position: sticky;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    background: #511a0b;
+}
+ul{
+    width: 100%;
+    list-style: none;
+    margin-bottom: -8px;
+}
+li a{
+    width: 25%;
+    height: 50px;
+    float: left;
+    text-decoration: none;
+    color: #FFFAE0;
+    font-size: 30px;
+    line-height: 160%;
+}
+li a:hover{
+    background: #E1A140;
+    color: #FFFAE0;
+}
+h2{
+    margin-top: 17px;
+    color: #F4EBD0;
+    font-weight: bolder;
+    font-size: 40px;
+}
+#nome{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+#email{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+#telefone{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+#cidade{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+#evento{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+#termos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
